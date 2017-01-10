@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-searchbar #searchbar placeholder="在附近搜索" (ionInput)="autoComplete($event)"></ion-searchbar>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="nearby-page globalBgColor">
+  <div class="container"  *ngIf="showContainer">
+    <button class="itemBtn" (click)="searchType('餐饮服务')">
+      <img src="assets/images/meituan8.png">
+      <div class="itemTitle">美食</div>
+    </button>
+    <button class="itemBtn" (click)="searchType('电影院', 5000)">
+      <img src="assets/images/meituan9.png">
+      <div class="itemTitle">电影</div>
+    </button>
+    <button class="itemBtn" (click)="searchType('酒店')">
+      <img src="assets/images/meituan10.png">
+      <div class="itemTitle">酒店</div>
+    </button>
+    <button class="itemBtn" (click)="searchType('公交车站|地铁站')">
+      <img src="assets/images/meituan11.png">
+      <div class="itemTitle">公交地铁</div>
+    </button>
+    <button class="itemBtn" (click)="searchType('银行')">
+      <img src="assets/images/meituan12.png">
+      <div class="itemTitle">银行</div>
+    </button>
+    <button class="itemBtn" (click)="searchType('公共厕所')">
+      <img src="assets/images/meituan13.png">
+      <div class="itemTitle">公厕</div>
+    </button>
+    <button class="itemBtn" (click)="searchType('体育休闲服务')">
+      <img src="assets/images/meituan14.png">
+      <div class="itemTitle">休闲</div>
+    </button>
+    <button class="itemBtn" (click)="searchType('风景名胜', 50000)">
+      <img src="assets/images/meituan15.png">
+      <div class="itemTitle">景点</div>
+    </button>
+  </div>
+
+  <ion-list *ngIf="!showContainer">
+    <button ion-item *ngFor="let place of places" (click)="searchPlace(place)">
+        <ion-icon name="pin" item-left color="primary"
+                  [class.twoLine]="place.district.length!=0 && place.address.length==0"
+                  [class.threeLine]="place.district.length!=0 && place.address.length!=0">
+        </ion-icon>
+      <div>
+        <h3>{{ place.name }}</h3>
+        <p>{{ place.district }}</p>
+        <p>{{ place.address }}</p>
+      </div>
+    </button>
+  </ion-list>
+</ion-content>

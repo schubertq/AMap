@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>附近</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="nearby-page">
+  <amap (onMapReady)="onMapReady()"></amap>
+  <ion-fab right bottom>
+    <button ion-fab color="primary" (click)="goToNearbyCtrl()">
+      <ion-icon name="search"></ion-icon>
+    </button>
+  </ion-fab>
+</ion-content>

@@ -1,0 +1,35 @@
+.nearby-page {
+  .container {
+      height: 28%;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .itemBtn {
+      background: white;
+      float: left;
+      width: 25%;
+      height: 50%;
+
+      img {
+        margin-top: 0;
+        width: 10vw;
+        height: 10vw;
+      }
+
+      .itemTitle {
+        margin-top: 0.5em;
+      }
+    }
+
+  .twoLine {
+    padding-top: 8px;
+  }
+
+  .threeLine {
+    padding-top: 18px;
+  }
+}

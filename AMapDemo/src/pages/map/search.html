@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-searchbar #searchbar animated="true" placeholder="搜索" (ionInput)="autoComplete($event)">
+    </ion-searchbar>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="search-page">
+  <ion-list>
+    <button ion-item *ngFor="let place of places" (click)="searchPlace(place)">
+      <ion-avatar item-left style="height: 50px;line-height:50px;">
+        <img src="assets/images/marker.png">
+      </ion-avatar>
+      <h3>{{ place.name }}</h3>
+      <p>{{ place.district }}</p>
+      <p>{{ place.address }}</p>
+    </button>
+  </ion-list>
+</ion-content>
