@@ -15,3 +15,4 @@ Ionic2+AngularJS2 高德地图的基本使用
 ![image](https://github.com/schubertq/AMap/raw/master/AMapDemo/screenshots/3.PNG)
 ![image](https://github.com/schubertq/AMap/raw/master/AMapDemo/screenshots/4.PNG)
 ![image](https://github.com/schubertq/AMap/raw/master/AMapDemo/screenshots/5.PNG)
+<img style="width:30%;" scr="https://github.com/schubertq/AMap/raw/master/AMapDemo/screenshots/5.PNG"/>
