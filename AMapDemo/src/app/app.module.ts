@@ -7,7 +7,7 @@ import {SearchCtrl} from "../pages/map/search";
 import {NearbyCtrl} from "../pages/map/nearby";
 import {MapCtrl} from "../pages/map/map";
 import {MapService} from "../pages/map/map.service";
-
+// mainstream added
 @NgModule({
   declarations: [
     MyApp,
