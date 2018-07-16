@@ -5,6 +5,7 @@ declare var AMap;
 //A
 //B added
 //B added
+//A added
 @Component({
   selector: 'amap',
   // note:解决鼠标单击右键变左键
