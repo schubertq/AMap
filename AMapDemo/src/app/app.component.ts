@@ -5,6 +5,7 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 import { TabsPage } from '../pages/tabs/tabs';
 
 // create branch-b
+// WorkerA added
 @Component({
   templateUrl: 'app.html'
 })
