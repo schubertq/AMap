@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 import {Geolocation, Geoposition} from 'ionic-native';
 import {MapConst} from './map.const';
-
+//Mainstream add
 export interface IMapOptions {
   lat:number;
   lon:number;
