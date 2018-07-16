@@ -2,7 +2,7 @@ import {Component, Output, EventEmitter, AfterViewInit, ViewChild, ElementRef} f
 import { MapService } from './map.service';
 
 declare var AMap;
-
+//A
 @Component({
   selector: 'amap',
   // note:解决鼠标单击右键变左键
