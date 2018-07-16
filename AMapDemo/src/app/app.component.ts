@@ -8,6 +8,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 // WorkerA added
 // WorkerB added
 // WorkerB added again
+// WorkerA added again
 @Component({
   templateUrl: 'app.html'
 })
