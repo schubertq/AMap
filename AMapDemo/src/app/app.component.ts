@@ -6,6 +6,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 // create branch-b
 // WorkerA added
+// WorkerB added
 @Component({
   templateUrl: 'app.html'
 })
