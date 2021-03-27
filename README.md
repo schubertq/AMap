@@ -10,8 +10,8 @@ Ionic2+AngularJS2 高德地图的基本使用
     * $ ionic plugin add cordova-plugin-geolocation
     * $ ionic plugin add cordova-plugin-inappbrowser
 
-<img src="https://github.com/schubertq/AMap/raw/master/AMapDemo/screenshots/1.png" width = "30%" />
-<img src="https://github.com/schubertq/AMap/raw/master/AMapDemo/screenshots/2.PNG" width = "30%" />
-<img src="https://github.com/schubertq/AMap/raw/master/AMapDemo/screenshots/3.PNG" width = "30%" />
-<img src="https://github.com/schubertq/AMap/raw/master/AMapDemo/screenshots/4.PNG" width = "30%" />
-<img src="https://github.com/schubertq/AMap/raw/master/AMapDemo/screenshots/5.PNG" width = "30%" />
+<img src="http://tedshu.com/images/AMap/screenshots/1.png" width = "30%" />
+<img src="http://tedshu.com/images/AMap/screenshots/2.PNG" width = "30%" />
+<img src="http://tedshu.com/images/AMap/screenshots/3.PNG" width = "30%" />
+<img src="http://tedshu.com/images/AMap/screenshots/4.PNG" width = "30%" />
+<img src="http://tedshu.com/images/AMap/screenshots/5.PNG" width = "30%" />
